@@ -2,6 +2,7 @@ package com.fakeorg;
 
 import com.fakeorg.sortingAlgorithms.QuickSort;
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -9,6 +10,7 @@ public class SortTest {
     private static Scanner input;
     public static void main (String...args) {
         input = new Scanner(System.in);
+
         System.out.println("Enter array size : ");
         int array_size = input.nextInt();
         System.out.println("Enter "+array_size+" array elements : ");
